@@ -1,10 +1,10 @@
 import re
 
-def match_emails(email):
+def match_email(email):
     pattern = r"^[a-zA-Z.]+@[a-zA-Z.]+\.[a-zA-Z]{2,}$"
     return re.match(pattern, email) is not None
 
-def pattern_links(link):
+def pattern_link(link):
     pattern = "^(https?):\/\/([a-zA-Z0-9.-]+)(\/[\S]*)?$"
     return re.match(pattern, link) is not None
     
