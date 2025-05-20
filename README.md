@@ -67,7 +67,7 @@ is_valid_amount = check_amount("$1,234.56")       # Returns True
 
 6. `check_html(tag: str) -> bool`
    - Validates HTML tags
-   - Example: "<p>" or "<div class='example'>"
+   - Example: `"<p>"` or `"<div class='example'>"`
 
 7. `check_hashtag(hashtag: str) -> bool`
    - Validates hashtags
