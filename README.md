@@ -104,5 +104,6 @@ Habeeb Dindi
 
 ## Resources
 
+- [Rubular](https://rubular.com/)
 - Regular Expressions documentation
 - Python re module documentation
